@@ -1,0 +1,35 @@
+.container {
+    display: flex;
+    font-family: 'Courier New', Courier, monospace;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    max-width: 50%;
+    min-width: 300px;
+    padding: 40px;
+    border-radius: 15px;
+    background-color: rgb(255, 255, 255);
+    user-select: none;
+    /* para centralizar verticalmente */
+}
+
+.relogio {
+    font-size: 3rem;
+    /* ajuste o tamanho da fonte conforme necessário */
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(0, 27, 63);
+}
+
+button{
+    background-color: rgb(0, 89, 255);
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    border: none;
+    padding: 15px;
+    border-radius: 10px;
+}
